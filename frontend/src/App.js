@@ -4,7 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-        "Hello World"
+        {/* NAvbar */}
+        {/* SideDrawer */}
+        {/* Backdrop */}
+        {/* HomeScreen */}
+        {/* ProductScreen */}
+        {/* CartScreen */}
     </div>
   );
 }

@@ -10,8 +10,9 @@
 }
 
 .navbar_logo h2 {
-    color: white;
-    font-size: 1.4rem;
+    color: rgb(12, 147, 180);
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
 }
 
@@ -27,7 +28,7 @@
 
 .navbar_links > li > a {
     text-decoration: none;
-    color: white;
+    color: rgb(12, 147, 180);
     font-size: 1.2rem;
     display: flex;
     align-items: center;
@@ -46,7 +47,7 @@
 }
 
 .cart__link:hover {
-    background-color: aqua;
+    background-color: rgb(12, 147, 180);
     color: black;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .hamburger_menu:hover > div {
-    background-color: aqua;
+    background-color: rgb(12, 147, 180);
 }
 
 @media (max-width: 960px) {

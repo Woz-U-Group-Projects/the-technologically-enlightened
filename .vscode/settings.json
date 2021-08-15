@@ -7,5 +7,6 @@
         "cartscreen",
         "homescreen",
         "productcreen"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }

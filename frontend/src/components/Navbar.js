@@ -13,7 +13,7 @@ const Navbar = ({ click }) => {
 	return (
 		<nav className="navbar">
 			<div className="navbar__logo">
-				<h2>NERD GEAR</h2>
+				<h2>NerdGear</h2>
 			</div>
 
 			<ul className="navbar__links">

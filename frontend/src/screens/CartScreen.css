@@ -49,7 +49,7 @@
 }
 
 .cartscreen__right div button:hover {
-	opacity: 0.9;
+	background-color: #ed1a52;
 }
 
 @media (max-width: 1320px) {

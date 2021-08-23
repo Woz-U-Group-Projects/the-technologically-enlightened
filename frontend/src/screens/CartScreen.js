@@ -2,11 +2,10 @@ import "./CartScreen.css";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import StripeCheckout from "react-stripe-checkout";
 
-// Components
 import CartItem from "../components/CartItem";
 
-// Actions
 import { addToCart, removeFromCart } from "../redux/actions/cartActions";
 
 const CartScreen = () => {
@@ -34,6 +33,10 @@ const CartScreen = () => {
 			.reduce((price, item) => price + item.price * item.qty, 0)
 			.toFixed(2);
 	};
+
+	function handleToken(token, addresses) {
+		console.log({ token, addresses });
+	}
 
 	return (
 		<>
@@ -63,7 +66,10 @@ const CartScreen = () => {
 						<p>${getCartSubTotal()}</p>
 					</div>
 					<div>
-						<button>Proceed To Checkout</button>
+						<StripeCheckout
+							stripekey="pk_test_51JNQmDGLWvuISMHnG42cOFSuOE1c1d5FO6zcS58rB9MA2LnfJaHobDg3WWAKgxP6xF0xY5Q45GUDz2iNN1b1ZrEH00JGTY7d9c"
+							token={handleToken}
+						></StripeCheckout>
 					</div>
 				</div>
 			</div>

@@ -26,14 +26,14 @@ const Navbar = ({ click }) => {
 					</Link>
 				</li>
 				<li>
-<<<<<<< HEAD
-					<Link to="/" className="home_link">Home</Link>
-=======
-					<Link to="/">Home</Link>
->>>>>>> dev
+					<Link to="/" className="home_link">
+						Home
+					</Link>
 				</li>
 				<li>
-					<Link to="/contactUs" className="contactUs_link">Contact Us</Link>
+					<Link to="/contactUs" className="contactUs_link">
+						Contact Us
+					</Link>
 				</li>
 			</ul>
 

@@ -67,9 +67,9 @@ const CartScreen = () => {
 					</div>
 					<div className="stripe">
 						<StripeCheckout
-							stripekey="pk_test_51JNQmDGLWvuISMHnG42cOFSuOE1c1d5FO6zcS58rB9MA2LnfJaHobDg3WWAKgxP6xF0xY5Q45GUDz2iNN1b1ZrEH00JGTY7d9c"
+							stripeKey="pk_test_51JNQmDGLWvuISMHnG42cOFSuOE1c1d5FO6zcS58rB9MA2LnfJaHobDg3WWAKgxP6xF0xY5Q45GUDz2iNN1b1ZrEH00JGTY7d9c"
 							token={handleToken}
-						></StripeCheckout>
+						/>
 					</div>
 				</div>
 			</div>

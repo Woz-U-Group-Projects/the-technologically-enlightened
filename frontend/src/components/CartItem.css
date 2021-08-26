@@ -4,15 +4,16 @@
 	display: grid;
 	grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
 	gap: 8px;
-	background: #fff;
-	border-radius: 2px;
+	background: #000;
+	color: white;
+	border-radius: 8px;
 	place-items: center;
 	margin-bottom: 8px;
 }
 
 .cartItem__name {
 	text-decoration: none;
-	color: #171717;
+	color: white;
 }
 
 .cartItem__name:hover {
@@ -21,18 +22,24 @@
 
 .cartItem__select {
 	padding: 10px 17px;
+	border-radius: 4px;
 }
 
 .cartItem__deleteBtn {
 	padding: 10px 17px;
 	color: red;
-	background: #f4f4f4;
+	background: #333;
 	border: 1px solid #171717;
+	border-radius: 4px;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
 
-.cartItem__deleteBtn:hover,
+.cartItem__deleteBtn:hover{
+	color: #000;
+	background: red;
+}
+
 .carItem__deleteBtn:active,
 .carItem__deleteBtn:focus {
 	background: #171717;

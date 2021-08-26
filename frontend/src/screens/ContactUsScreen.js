@@ -21,11 +21,11 @@ export default function ContactUsScreen() {
   }
 
   return (
-    <div>
-      <div className="title">Contact Us</div>
+    <body>
+      <h2 className="title">Contact Us</h2>
       <div className="email-us-body">
       <div className="container">
-        <div className="title">Email Us</div>
+        <div className="title_email">Email Us</div>
         <form action="#" className="contact-form" onSubmit={sendEmail}>
           <div className="input-box">
             <label>Name</label>
@@ -43,12 +43,12 @@ export default function ContactUsScreen() {
             <label>Message</label>
             <textarea cols="38" rows="8" placeholder="Message" name="message" required />
           </div>
-          <div className="button">
+          <button className="button">
             <input type="submit" value="Send" />
-          </div>
+          </button>
         </form>
       </div>
       </div>
-    </div>
+    </body>
   );
 }

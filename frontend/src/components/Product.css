@@ -1,8 +1,10 @@
 .product {
 	width: 300px;
 	padding: 1rem;
-	background: #fff;
+	background: #000;
+	color: #f4f4f4;
 	cursor: pointer;
+	border-radius: 10px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	margin: 8px auto;
 	display: flex;
@@ -39,17 +41,17 @@
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	color: #171717;
+	color: white;
 	width: 100%;
 	padding: 8px 16px;
-	background-color: #f4f4f4;
-	border: 1px solid #171717;
+	background-color: #333;
+	border-radius: 4px;
 	font-size: 1rem;
 }
 
 .info__button:hover {
-	background: #171717;
-	color: #f4f4f4;
+	background: #dd219e;
+	color: #000;
 }
 
 @media (max-width: 1232px) {

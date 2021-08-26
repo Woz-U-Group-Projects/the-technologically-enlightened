@@ -39,7 +39,7 @@ const CartScreen = () => {
 	}
 
 	return (
-		<>
+		<body>
 			<div className="cartscreen">
 				<div className="cartscreen__left">
 					<h2>Shopping Cart</h2>
@@ -65,7 +65,7 @@ const CartScreen = () => {
 						<p>Subtotal ({getCartCount()}) items</p>
 						<p>${getCartSubTotal()}</p>
 					</div>
-					<div>
+					<div className="stripe">
 						<StripeCheckout
 							stripekey="pk_test_51JNQmDGLWvuISMHnG42cOFSuOE1c1d5FO6zcS58rB9MA2LnfJaHobDg3WWAKgxP6xF0xY5Q45GUDz2iNN1b1ZrEH00JGTY7d9c"
 							token={handleToken}
@@ -73,7 +73,7 @@ const CartScreen = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</body>
 	);
 };
 

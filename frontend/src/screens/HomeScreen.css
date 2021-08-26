@@ -6,21 +6,14 @@
 }
 
 .homescreen__title {
-	background-color: #ff8177;
-	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-	background-size: 100%;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-text-fill-color: transparent;
 	display: flex;
 	align-items: center;
-	cursor: pointer;
 	text-decoration: none;
 	font-size: 2rem;
 	font-family: "Roboto Mono", monospace;
 	margin-bottom: 1rem;
 	margin-left: 8px;
+	cursor: default;
 }
 
 .homescreen__products {

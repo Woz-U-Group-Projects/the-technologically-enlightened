@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
 .navbar {
 	width: 100%;
-	background-color: #3182b8;
+	background-color: #000000;
 	display: flex;
+	border-radius: 0px 0px 8px 8px;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5rem 1rem;
@@ -10,16 +11,10 @@
 }
 
 .navbar__logo h2 {
-	background-color: #ff8177;
-	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-	background-size: 100%;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-text-fill-color: transparent;
+	color: #dd219e;
 	display: flex;
 	align-items: center;
-	cursor: pointer;
+	cursor: default;
 	text-decoration: none;
 	font-size: 2rem;
 	font-family: "Roboto Mono", monospace;
@@ -57,7 +52,7 @@
 
 .cart__link:hover {
 	background: #dd219e;
-	color: #f4f4f4;
+	color: #000000;
 }
 
 .cartlogo__badge {
@@ -71,6 +66,14 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 1rem;
+}
+
+.home_link:hover{
+	color: #dd219e;
+}
+
+.contactUs_link:hover{
+	color: #dd219e;
 }
 
 .hamburger__menu {

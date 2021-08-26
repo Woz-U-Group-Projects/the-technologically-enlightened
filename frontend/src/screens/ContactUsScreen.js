@@ -43,9 +43,9 @@ export default function ContactUsScreen() {
             <label>Message</label>
             <textarea cols="38" rows="8" placeholder="Message" name="message" required />
           </div>
-          <div className="button">
+          <button className="button">
             <input type="submit" value="Send" />
-          </div>
+          </button>
         </form>
       </div>
       </div>
